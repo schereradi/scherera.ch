@@ -19,7 +19,8 @@
     "remark-gfm": "^3.0.1",
     "server-only": "^0.0.1",
     "shiki": "^0.13.0",
-    "swr": "^2.0.3"
+    "swr": "^2.0.3",
+    "node-mailjet": "^6.0.2"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.9",

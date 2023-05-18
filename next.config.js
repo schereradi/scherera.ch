@@ -16,7 +16,11 @@ const nextConfig = {
     appDir: true,
   },
   output: 'export',
-  distDir: 'dist'
+  distDir: 'dist',
+  env: {
+    MJ_APIKEY_PUBLIC: process.env.MJ_APIKEY_PUBLIC,
+    MJ_APIKEY_PRIVATE: process.env.MJ_APIKEY_PRIVATE
+  }
 };
 
 module.exports = nextConfig;
