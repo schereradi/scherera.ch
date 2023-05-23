@@ -1,6 +1,6 @@
 export default async function sitemap() {
 
-  const routes = ['/', '/about'].map(
+  const routes = ['/', '/about', '/contact'].map(
     (route) => ({
       url: `https://www.scherera.ch${route}`,
       lastModified: new Date().toISOString().split('T')[0],
