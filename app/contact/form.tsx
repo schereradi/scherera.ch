@@ -3,7 +3,6 @@
 import { useRouter } from 'next/navigation';
 import { LocationIcon, EmailIcon, PhoneIcon } from 'components/icons';
 import Mailjet from 'node-mailjet';
-import { sendEmail } from './actions';
 import { useState, useTransition } from 'react';
 
 export default function Form() {
@@ -19,7 +18,18 @@ export default function Form() {
     const last_name = form.elements.namedItem('last') as HTMLInputElement;
     const message = form.elements.namedItem('message') as HTMLInputElement;
 
-    await sendEmail(email.value, message.value, first_name?.value, last_name?.value);
+    const res = await fetch('/api/mail', {
+      body: JSON.stringify({
+        email: email.value,
+        message: message.value,
+        last_name: last_name.value,
+        first_name: first_name.value
+      }),
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      method: 'POST',
+    });
     setIsSent(true);
   }
 
