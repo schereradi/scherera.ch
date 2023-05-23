@@ -30,6 +30,9 @@ export default function Form() {
       },
       method: 'POST',
     });
+    const { error } = await res.json();
+    if (error != null)
+      console.log(error);
     setIsSent(true);
   }
 
