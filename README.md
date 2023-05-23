@@ -16,9 +16,4 @@ npm run dev
 
 ## Deployment
 
-- **Azure**: [Azure Static Web Apps CLI](https://github.com/Azure/static-web-apps-cli)
-
-```bash
-npm run build
-swa deploy dist --env production -d <secret>
-```
+- **Azure**: [Azure Static Web Apps CI/CD](https://github.com/schereradi/scherera.ch/actions/workflows/azure-static-web-apps-lemon-flower-00be18503.yml)
