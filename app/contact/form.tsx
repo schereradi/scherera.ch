@@ -119,24 +119,26 @@ export default function Form() {
           </button>
         </form>
       )}
-      <div className="max-w-[500px] pt-8">
+      <div className="max-w-[500px] pt-8 px-32">
         <div
-          className="flex w-full border border-neutral-200 dark:border-neutral-800 space-x-4 Srounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-center"
+          className="w-full border border-neutral-200 dark:border-neutral-800 space-y-4 Srounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-center"
         >
-          <div title="Fluhgarten 1, CH-6037 Root" className="flex items-center">
+          <div className="flex items-center">
             <LocationIcon />
+            <div className="px-4 text-sm">Fluhgarten 1<br/>CH-6037 Root LU</div>
           </div>
           <a
             rel="noopener noreferrer"
             target="_blank"
             href="mailto:scherer.adi@gmail.com"
+            className="flex items-center"
           >
-            <div className="flex items-center">
-              <EmailIcon />
-            </div>
+            <EmailIcon />
+            <div className="px-4 text-sm">scherer.adi@gmail.com</div>
           </a>
-          <div title="+41'79'580'25'84" className="flex items-center">
+          <div className="flex items-center">
             <PhoneIcon />
+            <div className="px-4 text-sm">+41 79 580 25 84</div>
           </div>
         </div>
       </div>
