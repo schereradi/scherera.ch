@@ -119,7 +119,7 @@ export default function Form() {
           </button>
         </form>
       )}
-      <div className="max-w-[500px] pt-8 px-32">
+      <div className="max-w-[500px] pt-8 px-4 sm:px-32">
         <div
           className="w-full border border-neutral-200 dark:border-neutral-800 space-y-4 Srounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-center"
         >
