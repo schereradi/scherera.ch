@@ -11,7 +11,7 @@ export default async function HomePage() {
       <h1 className="font-bold text-3xl font-serif">Welcome to {name}’s website</h1>
       <p className="my-5 max-w-[580px] text-neutral-800 dark:text-neutral-200">
         This is my own personal website. It's just a playground for experimentation, a place to try new techniques and learn new tools.
-        There is no primary use-case for this website... <span className="inline-block"><NerdIcon /></span>
+        There is no primary use-case for this website...
       </p>
       <p className="my-5 max-w-[580px] text-neutral-800 dark:text-neutral-200">
         This site is built with <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer" className="hover:underline">Next.js</a> and hosted on <a href="https://azure.microsoft.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">Azure</a>.
