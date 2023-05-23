@@ -15,7 +15,7 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-  output: 'export',
+  output: 'standalone',
   distDir: 'dist',
   env: {
     MJ_APIKEY_PUBLIC: process.env.MJ_APIKEY_PUBLIC,
