@@ -31,7 +31,7 @@ export default function AboutPage() {
       <p className="my-12 max-w-[580px] text-neutral-800 dark:text-neutral-200">
         Here some links to places where I spend my time:
       </p>
-      <div className="grid grid-cols-2 gap-4 max-w-[580px]">
+      <div className="grid sm:grid-cols-2 grid-cols-1 gap-4 max-w-[580px]">
         <a
           rel="noopener noreferrer"
           target="_blank"
