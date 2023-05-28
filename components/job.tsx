@@ -14,7 +14,7 @@ export const Job: React.FC<JobProps> = ({
   title, location, company, period, description, tech
 }) => {
   return (
-    <div className="py-6">
+    <div className="py-3">
       <h3 className='text-sm md:text-base'>
         <span className="rounded-md px-2 bg-neutral-800 text-neutral-100">
           {title}
