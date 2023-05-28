@@ -74,7 +74,7 @@ export default function CvPage() {
           period='08/2009 – 10/2012'
           description={
             <>
-              Software development within the business unit 'Propulsion & Controls' of train control and management systems.
+              Software development within the business unit 'Propulsion &amp; Controls' of train control and management systems.
               <ul>
                 <li>Programming of applications for vehicle control, the driver's cab displays and locomotive simulators.</li>
                 <li>Requirements engineering and preparation of offers.</li>
