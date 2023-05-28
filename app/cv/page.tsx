@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
-import Image from 'next/image';
-import { DateIcon, WorkIcon } from 'components/icons';
+import { WorkIcon } from 'components/icons';
+import { Job } from 'components/job';
 
 export const metadata: Metadata = {
   title: 'Curriculum Vitae',
@@ -23,26 +23,22 @@ export default function CvPage() {
           </h2>
         </div>
 
-        <div className="py-6">
-          <h3 className='text-sm md:text-base'>
-            <span className="rounded-md px-2 bg-neutral-800 text-neutral-100">
-              Software Engineer
-            </span>
-            <span> at Roche Diagnostics International AG</span>
-          </h3>
-          <div className="mt-1 tracking-wide flex items-center text-xs md:text-sm">
-            <DateIcon />
-            <div className="mt-1">11/2012 – 03/2016</div>
-          </div>
-          <div className="mt-1 prose prose-neutral dark:prose-invert text-xs md:text-sm max-w-fit">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Neque viverra justo nec ultrices. Urna nunc id cursus metus aliquam eleifend mi in nulla. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra. Tristique senectus et netus et malesuada fames ac.
-            <ul>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-              <li>Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Neque viverra justo nec ultrices.</li>
-            </ul>
-          </div>
-        </div>
-
+        <Job
+          title='Software Engineer'
+          company='Roche Diagnostics International AG'
+          location='Rotkreuz'
+          period='11/2012 – 03/2016'
+          description={
+            <>
+              Software development for state-of-the-art bloodgas Point-of-Care analyzer.
+              <ul>
+                <li>Responsible for the analyzer measurement control software, which calculates measured values from the sensor or from the oxymetry module, performs the calibration and quality control of the sensor, handles errors in the instrument, controls and monitors all sensors and actuators, etc.</li>
+                <li>Supporting the development of the interface module.</li>
+              </ul>
+            </>
+          }
+          tech='C++, Qt, Firebird, Linux (RT-preempt patched)'
+        />
       </div>
     </section>
   );
