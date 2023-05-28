@@ -24,6 +24,34 @@ export default function CvPage() {
         </div>
 
         <Job
+          title='Senior Software Engineer'
+          company='Inacta AG'
+          location='Zug'
+          period='11/2020 – 08/2023'
+          description={
+            <>
+              Full-stack software development of cloud applications.
+              <ul>
+                <li>Remaining time: Implementation of an investment platform for FIAT and cryptocurrencies (Java 17, Quarkus, Postgres, Next.js, RabbitMQ).</li>
+                <li>06/2022 - 03/2023: Implementation of a new output management system (Kotlin, Spring Boot, Camunda, Angular, OpenShift, Oracle, Gitlab, ArgoCD).</li>
+                <li>11/2020 - 12/2021: Implementation of an onboarding platform (Java 11, Quarkus, Postgres, Vaadin, RabbitMQ).</li>
+              </ul>
+            </>
+          }
+        />
+        <Job
+          title='Senior Software Engineer'
+          company='Löwenfels Partner AG'
+          location='Luzern'
+          period='04/2016 – 10/2020'
+          description={
+            <>
+              Full-stack software development of a comprehensive AHV solution to support the compensation offices in handling their core processes.
+            </>
+          }
+          tech='Java, Oracle/Db2, WildFly/WebSphere'
+        />
+        <Job
           title='Software Engineer'
           company='Roche Diagnostics International AG'
           location='Rotkreuz'
@@ -32,12 +60,53 @@ export default function CvPage() {
             <>
               Software development for state-of-the-art bloodgas Point-of-Care analyzer.
               <ul>
-                <li>Responsible for the analyzer measurement control software, which calculates measured values from the sensor or from the oxymetry module, performs the calibration and quality control of the sensor, handles errors in the instrument, controls and monitors all sensors and actuators, etc.</li>
+                <li>Main responsibility for the analyzer measurement control software.</li>
                 <li>Supporting the development of the interface module.</li>
               </ul>
             </>
           }
           tech='C++, Qt, Firebird, Linux (RT-preempt patched)'
+        />
+        <Job
+          title='Software Engineer'
+          company='Bombardier Transportation AG'
+          location='Zurich'
+          period='08/2009 – 10/2012'
+          description={
+            <>
+              Software development within the business unit 'Propulsion & Controls' of train control and management systems.
+              <ul>
+                <li>Programming of applications for vehicle control, the driver's cab displays and locomotive simulators.</li>
+                <li>Requirements engineering and preparation of offers.</li>
+                <li>Testing and commissioning both on simulators and railway vehicles (worldwide).</li>
+              </ul>
+            </>
+          }
+          tech='C/C++, Qt, Linux (RT-preempt patched), Matlab'
+        />
+        <Job
+          title='Intern'
+          company='Levitronix GmbH'
+          location='Zurich'
+          period='01/2009 – 08/2009'
+          description={
+            <>
+              Development, design, layout and implementation of a new magnetically levitated, bearingless, 'integrated' pump.
+            </>
+          }
+          tech='C, Altium Designer'
+        />
+        <Job
+          title='Intern'
+          company='Moelbert Datentechnik AG'
+          location='Hochdorf'
+          period='08/2006 – 10/2006'
+          description={
+            <>
+              Feature implementation for a energy distribution software of a load flow calculation to simulate the effects of a switching operation.
+            </>
+          }
+          tech='Delphi'
         />
       </div>
     </section>

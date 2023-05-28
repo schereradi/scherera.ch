@@ -7,7 +7,7 @@ interface JobProps {
   location: string;
   period: string;
   description: ReactNode;
-  tech: string;
+  tech?: string;
 }
 
 export const Job: React.FC<JobProps> = ({
@@ -30,9 +30,12 @@ export const Job: React.FC<JobProps> = ({
       <div className="mt-1 prose prose-neutral dark:prose-invert text-xs md:text-sm max-w-fit">
         {description}
       </div>
-      <div className="mt-1 prose prose-neutral dark:prose-invert text-xs md:text-sm max-w-fit">
-        <span className="font-bold">Tech-Stack: </span>{tech}
-      </div>
+      {tech && (
+        <div className="mt-1 prose prose-neutral dark:prose-invert text-xs md:text-sm max-w-fit">
+          <span className="font-bold">Tech-Stack: </span>{tech}
+        </div>
+      )}
+
     </div>
   );
 };
