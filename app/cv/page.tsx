@@ -12,7 +12,14 @@ export default function CvPage() {
     <section>
       <h1 className="font-bold text-3xl font-serif">Curriculum Vitae</h1>
 
-      <div className="py-12 text-neutral-900 dark:text-neutral-100">
+      <p className="text-xs md:text-sm my-5 text-neutral-800 dark:text-neutral-200">
+          Solidly grounded in technology. Never satisfied, always learning. Friendly and enthusiastic team
+          player and passionate about product quality and reliability. Whether working in a team or alone, concentrates on
+          delivering positive, timely outcomes. High degree of flexibility, reliability, readiness of mind, ability to communicate and
+          sense of responsibility.
+      </p>
+
+      <div className="py-5 text-neutral-900 dark:text-neutral-100">
 
         <div className="flex justify-center text-center">
           <h2 className="text-lg md:text-xl">

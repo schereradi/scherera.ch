@@ -5,7 +5,9 @@ export const avatar = me;
 export const about = () => {
   return (
     <>
-      Hello there, I'm Adrian! I'm a full-stack software engineer from Switzerland and passionate about all parts of modern software development.
+      Hello there, I'm Adrian!<br/>
+      I'm a passionate full-stack software engineer from Switzerland offering many years of experience
+      in the full software development lifecycle – from requirement & concept via implementation through to testing.
     </>
   );
 };

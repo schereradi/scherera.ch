@@ -120,9 +120,10 @@ export default function TechPage() {
               <td className="px-6 py-4">
                 Git, Subversion, Matlab,<br/>
                 Atlassian, Maven, Gradle,<br/>
-                Jenkins, Gitlab, Kubernetes,<br/>
-                Docker, ArgoCD, Prometheus,<br/>
-                Grafana, Keycloak, Sonar<br/>
+                Jenkins, Gitlab, Docker,<br/>
+                Kubernetes, Prometheus, <br/>
+                Grafana, ArgoCD,<br/>
+                Keycloak, Sonar<br/>
               </td>
               <td className="px-6 py-4">
                 VisualVM, LabVIEW,<br/>
@@ -139,7 +140,7 @@ export default function TechPage() {
                 Databases
               </th>
               <td className="px-6 py-4">
-                Oracle, Db2, PostgreSQL,
+                Oracle, Db2, PostgreSQL,<br/>
                 H2
               </td>
               <td className="px-6 py-4">
@@ -159,8 +160,8 @@ export default function TechPage() {
                 REST Assured, AssertJ
               </td>
               <td className="px-6 py-4">
-                Jest, Cypress, ArchUnit,<br/>
-                WireMock
+                Jest, Cypress,<br/>
+                ArchUnit, WireMock
               </td>
               <td className="px-6 py-4">
                 PowerMock
