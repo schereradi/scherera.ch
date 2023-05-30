@@ -144,11 +144,11 @@ export default function CvPage() {
           <div className="mt-1">09/2003 - 08/2007</div>
         </div>
         <h3 className='text-sm md:text-base pt-3'>
-          <span>High-school</span>
+          <span>High School</span>
         </h3>
         <div className="mt-1 tracking-wide flex items-center text-xs md:text-sm">
           <SmallLocationIcon />
-          <div className="pr-2">Hochdorf</div>
+          <div className="pr-2">Seetal High School</div>
           <SmallDateIcon />
           <div className="mt-1">1997 - 2003</div>
         </div>

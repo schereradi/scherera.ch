@@ -110,7 +110,8 @@ export default function TechPage() {
               <td className="px-6 py-4">
                 Kafka, jOOQ, <br/>
                 Hazelcast, Pandas,<br/>
-                NumPy, TensorFlow
+                NumPy, TensorFlow,<br/>
+                Akka
               </td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
