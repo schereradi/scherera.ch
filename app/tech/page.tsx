@@ -51,13 +51,13 @@ export default function TechPage() {
                 Java, Kotlin, SQL,<br/>
                 JavaScript/TypeScript,<br/>
                 HTML, CSS, XML,<br/>
-                Shell script (Bash)
+                Shell script
               </td>
               <td className="px-6 py-4">
                 C/C++, Python
               </td>
               <td className="px-6 py-4">
-                Delphi
+                Delphi, C#, Scala
               </td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -82,11 +82,11 @@ export default function TechPage() {
                 Next.js, React
               </td>
               <td className="px-6 py-4">
-                Vaadin, Qt
+                Vaadin, Qt, Bootstrap
               </td>
               <td className="px-6 py-4">
                 Angular, SvelteKit,<br/>
-                Bootstrap
+                React Native
               </td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -111,7 +111,7 @@ export default function TechPage() {
                 Kafka, jOOQ, <br/>
                 Hazelcast, Pandas,<br/>
                 NumPy, TensorFlow,<br/>
-                Akka
+                Akka, Redux, Boost
               </td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -162,7 +162,8 @@ export default function TechPage() {
               </td>
               <td className="px-6 py-4">
                 Jest, Cypress,<br/>
-                ArchUnit, WireMock
+                ArchUnit, WireMock,<br/>
+                CppUnit
               </td>
               <td className="px-6 py-4">
                 PowerMock
@@ -180,9 +181,10 @@ export default function TechPage() {
                 Hexagonal architecture
               </td>
               <td className="px-6 py-4">
-                UML, DDD, BDD
+                UML, DDD, BDD, EDA
               </td>
               <td className="px-6 py-4">
+                Serverless
               </td>
             </tr>
           </tbody>
