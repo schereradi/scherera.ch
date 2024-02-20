@@ -40,7 +40,7 @@ export default function CvPage() {
               Full-stack software development of cloud applications.
               <ul>
                 <li>Remaining time: Implementation of an investment platform for FIAT and cryptocurrencies (Java 17, Quarkus, Postgres, Next.js, RabbitMQ).</li>
-                <li>07/2023 - 01/2024: Implementation of a world carbon map with multiple data layers using DIDs and verifiable credentials on the Hedera network.</li>
+                <li>07/2023 - 01/2024: Implementation of a world carbon map with multiple data layers using DIDs and verifiable credentials on the Hedera network (Java 17, Quarkus, Postgres, Next.js).</li>
                 <li>06/2022 - 03/2023: Implementation of a new output management system (Kotlin, Spring Boot, Camunda, Angular, OpenShift, Oracle, Gitlab, ArgoCD).</li>
                 <li>11/2020 - 12/2021: Implementation of an onboarding platform (Java 11, Quarkus, Postgres, Vaadin, RabbitMQ).</li>
               </ul>
