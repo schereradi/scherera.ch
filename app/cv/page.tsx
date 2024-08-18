@@ -15,8 +15,7 @@ export default function CvPage() {
       <p className="text-xs md:text-sm my-5 text-neutral-800 dark:text-neutral-200">
           Solidly grounded in technology. Never satisfied, always learning. Friendly and enthusiastic team
           player and passionate about product quality and reliability. Whether working in a team or alone, concentrates on
-          delivering positive, timely outcomes. High degree of flexibility, reliability, readiness of mind, ability to communicate and
-          sense of responsibility.
+          delivering positive, timely outcomes with an high degree of flexibility.
       </p>
 
       <div className="py-5 text-neutral-900 dark:text-neutral-100">
@@ -30,6 +29,20 @@ export default function CvPage() {
           </h2>
         </div>
 
+        <Job
+          title='Senior Software Engineer'
+          company='Freelancing'
+          location='Switzerland'
+          period='03/2024 – now'
+          description={
+            <>
+              Lending my skills and talents as a Freelancer to clients on a flexible basis:
+              <ul>
+                <li>03/2023 - now: Full-stack software development.</li>
+              </ul>
+            </>
+          }
+        />
         <Job
           title='Senior Software Engineer'
           company='Inacta AG'
