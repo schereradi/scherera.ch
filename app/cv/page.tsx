@@ -30,16 +30,12 @@ export default function CvPage() {
         </div>
 
         <Job
-          title='Senior Software Engineer'
-          company='Freelancing'
+          title='Freelancer'
           location='Switzerland'
           period='03/2024 – now'
           description={
             <>
-              Lending my skills and talents as a Freelancer to clients on a flexible basis:
-              <ul>
-                <li>03/2023 - now: Full-stack software development.</li>
-              </ul>
+              Lending my skills and talents as a (Java) Software Engineer to clients on a flexible basis.
             </>
           }
         />

@@ -3,7 +3,7 @@ import { SmallDateIcon, WorkIcon, SmallLocationIcon } from 'components/icons';
 
 interface JobProps {
   title: string;
-  company: string;
+  company?: string;
   location: string;
   period: string;
   description: ReactNode;
@@ -19,7 +19,9 @@ export const Job: React.FC<JobProps> = ({
         <span className="rounded-md px-2 bg-neutral-800 text-neutral-100">
           {title}
         </span>
-        <span> at {company}</span>
+        {company && (
+          <span> at {company}</span>
+        )}
       </h3>
       <div className="mt-1 tracking-wide flex items-center text-xs md:text-sm">
         <SmallLocationIcon />
