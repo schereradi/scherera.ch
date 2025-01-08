@@ -16,7 +16,8 @@ export const metadata: Metadata = {
     default: 'Scherer Adrian',
     template: '%s | Scherer Adrian',
   },
-  description: 'Full-stack software engineer',
+  description: 'Full-stack software engineer from Switzerland.',
+  keywords: ['Scherer', 'Adrian', 'Hochdorf', 'ETH', 'Software', 'Engineer', 'Freelancer', 'Full-Stack', 'Java', 'React', 'Python', 'Quarkus', 'Kotlin'], 
   openGraph: {
     title: 'Scherer Adrian',
     description: 'Full-stack software engineer',
