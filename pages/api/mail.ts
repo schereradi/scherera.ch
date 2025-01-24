@@ -16,7 +16,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         Messages: [
           {
             From: {
-              Email: "adrian.scherer@inacta.ch",
+              Email: "scherer.adi@gmail.com",
               Name: "Scherer Adrian"
             },
             To: [
