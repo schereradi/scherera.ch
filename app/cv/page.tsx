@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { WorkIcon, EducationIcon, CertificateIcon, SmallLocationIcon, SmallDateIcon, ProgressIcon } from 'components/icons';
+import { WorkIcon, EducationIcon, CertificateIcon, SmallLocationIcon, SmallDateIcon, ProgressIcon, MembershipIcon } from 'components/icons';
 import { Job } from 'components/job';
 
 export const metadata: Metadata = {
@@ -48,10 +48,9 @@ export default function CvPage() {
             <>
               Full-stack software development of cloud applications.
               <ul>
-                <li>Remaining time: Implementation of an investment platform for FIAT and cryptocurrencies (Java 17, Quarkus, Postgres, Next.js, RabbitMQ).</li>
-                <li>07/2023 - 01/2024: Implementation of a world carbon map with multiple data layers using DIDs and verifiable credentials on the Hedera network (Java 17, Quarkus, Postgres, Next.js).</li>
-                <li>06/2022 - 03/2023: Implementation of a new output management system (Kotlin, Spring Boot, Camunda, Angular, OpenShift, Oracle, Gitlab, ArgoCD).</li>
-                <li>11/2020 - 12/2021: Implementation of an onboarding platform (Java 11, Quarkus, Postgres, Vaadin, RabbitMQ).</li>
+                <li>Remaining time: Implementation of a SaaS investment platform for issuing and managing token in the capital market, which is ISAE 3402 and ISO 27001 certified and complies with FINMA and GDPR regulations. (Java 17, Quarkus, Postgres, Next.js, RabbitMQ).</li>
+                <li>07/2023 - 01/2024: Implementation of a 'world carbon map' for an international energy supplier with multiple data layers using DIDs and verifiable credentials on the Hedera network to increase transparency in CO₂ compensation projects (Java 17, Quarkus, Postgres, Next.js).</li>
+                <li>06/2022 - 03/2023: Implementation of a new output management system for an insurance company (Kotlin, Spring Boot, Camunda, Angular, OpenShift, Oracle, Gitlab, ArgoCD).</li>
               </ul>
             </>
           }
@@ -181,7 +180,6 @@ export default function CvPage() {
           <div className="mt-1">10/2016 - 10/2018</div>
         </div>
 
-
         <div className="flex justify-center text-center pt-8">
           <h2 className="text-lg md:text-xl">
             <div className="flex items-center gap-2">
@@ -198,6 +196,21 @@ export default function CvPage() {
             <li>2016: <span className="font-bold">Certified Professional for Software Architecture - FL</span>, iSAQB.</li>
             <li>2016: <span className="font-bold">Certified Scrum Master</span>, Scrum Alliance.</li>
             <li>2015: <span className="font-bold">Certified Professional for Requirements Engineering - FL</span>, iSQI.</li>
+          </ul>
+        </div>
+
+        <div className="flex justify-center text-center pt-8">
+          <h2 className="text-lg md:text-xl">
+            <div className="flex items-center gap-2">
+              <MembershipIcon />
+              <div>Memberships</div>
+            </div>
+          </h2>
+        </div>
+        <div className="mt-1 prose prose-neutral dark:prose-invert text-xs md:text-sm max-w-fit">
+          <ul>
+            <li><a href="https://www.jug.ch/" target="_blank" rel="noopener noreferrer" className="hover:underline">Java User Group Switzerland</a></li>
+            <li><a href="https://www.alumni.ethz.ch/" target="_blank" rel="noopener noreferrer" className="hover:underline">ETH Alumni</a></li>
           </ul>
         </div>
       </div>

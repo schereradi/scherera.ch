@@ -133,7 +133,7 @@ export default function TechPage() {
               <td className="px-6 py-4">
                 Valgrind, JProfiler,<br/>
                 JMeter, Gatling,<br/>
-                Simulink
+                Simulink, Ansible
               </td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
